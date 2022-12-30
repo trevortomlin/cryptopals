@@ -4,7 +4,7 @@ use std::fs;
 
 fn main() {
 
-    let input = fs::read_to_string("challenge4.txt").expect("Should have been able to read the file.");
+    let input = fs::read_to_string("input/challenge4.txt").expect("Should have been able to read the file.");
 
     println!("Challenge 4 : {}", single_xor(&input)); 
     
